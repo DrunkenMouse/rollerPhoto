@@ -15,6 +15,8 @@
 		16779B061DED0F3F00555B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16779B041DED0F3F00555B6D /* LaunchScreen.storyboard */; };
 		16779B111DED0F3F00555B6D /* _____3D_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16779B101DED0F3F00555B6D /* _____3D_____Tests.m */; };
 		16779B1C1DED0F3F00555B6D /* _____3D_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16779B1B1DED0F3F00555B6D /* _____3D_____UITests.m */; };
+		16779B311DED0FE500555B6D /* ADMenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16779B301DED0FE500555B6D /* ADMenuCollectionViewCell.m */; };
+		16779B341DED0FFB00555B6D /* ADCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 16779B331DED0FFB00555B6D /* ADCollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		16779B171DED0F3F00555B6D /* 图像滚筒(3D)浏览效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图像滚筒(3D)浏览效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16779B1B1DED0F3F00555B6D /* _____3D_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____3D_____UITests.m"; sourceTree = "<group>"; };
 		16779B1D1DED0F3F00555B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16779B2F1DED0FE500555B6D /* ADMenuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMenuCollectionViewCell.h; sourceTree = "<group>"; };
+		16779B301DED0FE500555B6D /* ADMenuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMenuCollectionViewCell.m; sourceTree = "<group>"; };
+		16779B321DED0FFB00555B6D /* ADCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCollectionViewLayout.h; sourceTree = "<group>"; };
+		16779B331DED0FFB00555B6D /* ADCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		16779AF51DED0F3F00555B6D /* 图像滚筒(3D)浏览效果 */ = {
 			isa = PBXGroup;
 			children = (
+				16779B2F1DED0FE500555B6D /* ADMenuCollectionViewCell.h */,
+				16779B301DED0FE500555B6D /* ADMenuCollectionViewCell.m */,
+				16779B321DED0FFB00555B6D /* ADCollectionViewLayout.h */,
+				16779B331DED0FFB00555B6D /* ADCollectionViewLayout.m */,
 				16779AF91DED0F3F00555B6D /* AppDelegate.h */,
 				16779AFA1DED0F3F00555B6D /* AppDelegate.m */,
 				16779AFC1DED0F3F00555B6D /* ViewController.h */,
@@ -272,6 +282,8 @@
 			files = (
 				16779AFE1DED0F3F00555B6D /* ViewController.m in Sources */,
 				16779AFB1DED0F3F00555B6D /* AppDelegate.m in Sources */,
+				16779B341DED0FFB00555B6D /* ADCollectionViewLayout.m in Sources */,
+				16779B311DED0FE500555B6D /* ADMenuCollectionViewCell.m in Sources */,
 				16779AF81DED0F3F00555B6D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
